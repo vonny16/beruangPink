@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeruangPink</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            width: 60%;
+            margin: auto;
+            background-color: rgba(255, 0, 212, 0.359);
+        }
+
+        .profile {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            grid-gap: 30px;
+            margin-top: 30px;
+        }
+
+        .profile img {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+        }
+
+        .resume-list {
+            margin-top: 30px;
+        }
+
+        .resume-item {
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Ini Beruang Pink</h1>
-    <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/24/batch-upload/batch-upload_e6f70c06-404a-4e1d-87ab-fdc6becaed0f.jpg" alt="">
+    <div class="profile">
+        <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/24/batch-upload/batch-upload_e6f70c06-404a-4e1d-87ab-fdc6becaed0f.jpg"
+            alt="">
+
+        <div class="profile-detail">
+            <h1>Kelompok 4 - IT Governance</h1>
+            <p>Anggota Kelompok: </p>
+            <ul>
+                <li>Abi Amarulloh - 2010081</li>
+                <li>Nur Muhammad</li>
+                <li>Vonny Febrianti</li>
+                <li>Francoice</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <hr>
+    <marquee behavior="" direction="">Hi, Selamat datang di github pages, kelompok 4 beruang pink</marquee>
+
+    <div class="resume-list">
+        <div class="resume-item">
+            <h3>Pertemuan 2</h3>
+            <p>Resume Materi minggu kemarin:</p>
+            <ul>
+                <li>Diminta membuat github pages</li>
+                <li>Diminta meresume materi / tugas setiap pertemuan</li>
+            </ul>
+        </div>
+
+        <div class="resume-item">
+            <h3>Pertemuan 3</h3>
+            <p>Coming soon</p>
+        </div>
+    </div>
 </body>
+
 </html>
